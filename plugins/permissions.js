@@ -12,7 +12,7 @@ var MM 		= module.parent,
 // Permissions //
 
 // Settings
-var admins = ['barrykun', 'rawr']; // Users that bypass permission requirement
+var admins = ['fath', 'lawhammer', 'fatkhuliyan', 'pr0junior']; // Users that bypass permission requirement
 var roleObject = {
 	access: 0,
 	inherits: [], // Role names
