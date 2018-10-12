@@ -1,7 +1,7 @@
 // DerpLib
 var DerpLib = require('./derplib');
 
-DerpLib.addAccount('USERNAME', 'PASSWORD');
+DerpLib.addAccount('Fath', 'PASSWORD');
 
 console.log('[DB] Loading...');
 var db = DerpLib.MM.plugin.load('database').setOrder(1).done(function(){
@@ -13,8 +13,8 @@ var db = DerpLib.MM.plugin.load('database').setOrder(1).done(function(){
 	permissions.setDefaultRole('user');
 	
 	// Join a room here - after it's joined use join and leave commands
-	if(!DerpLib.getRoom('exampleroom'))
-		new DerpLib.Room({room: 'exampleroom', account: 'USERNAME'});
+	if(!DerpLib.getRoom('an-insanity'))
+		new DerpLib.Room({room: 'an-insanity', account: 'Fath'});
 });
 
 DerpLib.events.on("request", function(req){
